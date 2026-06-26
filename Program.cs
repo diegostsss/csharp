@@ -1,9 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using CursoCSharp.Atividade;
-using CursoCSharp.Fundamentos;
-using CursoCSharp.Estruturas;
+﻿using CursoCSharp.Atividade;
+using CursoCSharp.ClassesEmetodos;
+using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Copa;
+using CursoCSharp.Estruturas;
+using CursoCSharp.Fundamentos;
+using System;
+using System.Collections.Generic;
+using static CursoCSharp.ClassesEMetodos.OrdemServico;
+using static CursoCSharp.ClassesEMetodos.VendaCelular;
 
 namespace CursoCSharp {
     class Program {
@@ -30,8 +34,23 @@ namespace CursoCSharp {
                 {"Atividade3 - Atividade", Copa2.Executar},
                 {"Atividade4 - Atividade", Copa3.Executar},
                 {"Atividade5 - Atividade", Copa4.Executar},
+                {"Atividade da copa - Atividade", AtividadeDaCopa.Executar},
+                
 
-                {"EstruturaRepeticao - Estruturas", EstruturaRepeticao.Executar}
+                {"EstruturaRepeticao - Estruturas", EstruturaRepeticao.Executar},
+
+                {"Membros - ClassesEMetodos", Membros.Executar},
+                {"Construtores - ClassesEMetodos", Construtores.Executar},
+                {"MetodosComRetorno - ClassesEMetodos", MetodosComRetorno.Executar},
+                {"ConversorDeTemperatura - ClassesEMetodos", ConversorDeTemperatura.Executar},
+                {"Calculadora - ClassesEMetodos", CalcularDesconto.Executar},
+                {"Oficina Mecanica - ClassesEMetodos", OficinaMecanica.Executar},
+                {"Soma - ClassesEMetodos", Soma.Executar},
+                {"Loja de Celulares - ClassesEMetodos", LojaCelulares.Executar},
+                {"Lanchonete - ClassesEMetodos", lanchonete.Executar},
+                {"Pizzaria - ClassesEMetodos", Pizzaria.Executar},
+                {"GetSet - ClassesEMetodos", GetSet.Executar}
+
             });
 
             central.SelecionarEExecutar();
