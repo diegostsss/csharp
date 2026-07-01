@@ -20,7 +20,7 @@ namespace CursoCSharp.ClassesEMetodos {
                 NovoCliente cliente1 = new NovoCliente();
                 cliente1.Nome = "Caça Rato";
                 Console.WriteLine(cliente1.Nome);
-
+                
             }
         }
     }
